@@ -45,7 +45,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: const Text('Server Dashboard'),
+        title: const Text('Dabba-DB Dashboard'),
       ),
       drawer: Drawer(
         child: ListView(
@@ -62,7 +62,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   Icon(Icons.dns, size: 48, color: Colors.black87),
                   SizedBox(height: 8),
                   Text(
-                    'SQLite Server',
+                    'Dabba-DB Server',
                     style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                   ),
                 ],
