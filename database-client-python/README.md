@@ -7,13 +7,13 @@ A Python module to connect to the SQLite Phone App WebSocket server. It includes
 You can install this directly from your GitHub repository using `pyproject.toml` or `pip`:
 
 ```bash
-pip install git+https://github.com/your-username/sqlite-phone-client.git
+pip install "dabba-db-client @ git+https://github.com/hridayK/Dabba-DB.git#subdirectory=database-client-python"
 ```
 
 Or in `pyproject.toml`:
 ```toml
 dependencies = [
-    "sqlite-phone-client @ git+https://github.com/your-username/sqlite-phone-client.git"
+    "dabba-db-client @ git+https://github.com/hridayK/Dabba-DB.git#subdirectory=database-client-python"
 ]
 ```
 
