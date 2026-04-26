@@ -11,3 +11,6 @@ requires-python = ">=3.8"
 dependencies = [
     "websockets>=11.0.3",
 ]
+
+[tool.hatch.build.targets.wheel]
+packages = ["dabba_db_client"]
